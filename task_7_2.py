@@ -16,7 +16,6 @@ with open('config.yaml', 'r', encoding='utf-8') as f:
                 name_dir = dir_name
                 print('1')
                 
-
         elif line.startswith(' ') and not line.endswith(('.py\n', '.html\n')):
             if not os.path.exists(dir_name):
                 dir = dir_name
